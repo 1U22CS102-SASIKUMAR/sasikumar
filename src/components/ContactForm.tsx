@@ -42,7 +42,7 @@ const ContactForm = () => {
 
       await emailjs.send(
         'service_frrdela',
-        'template_contact', // You'll need to create this template in EmailJS
+        'template_1iwozkc',
         templateParams,
         '6LcjKBSOth6b9ASvd'
       );
