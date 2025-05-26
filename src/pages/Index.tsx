@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Mail, Phone, Linkedin, Github, Code, User, Home as HomeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -95,8 +96,12 @@ const Index = () => {
           <Card className="p-8 md:p-12 bg-white/70 backdrop-blur-md border-purple-100 shadow-xl">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <div className="w-48 h-48 mx-auto md:mx-0 rounded-full bg-gradient-to-br from-purple-400 to-blue-400 flex items-center justify-center shadow-2xl">
-                  <User size={80} className="text-white" />
+                <div className="w-48 h-48 mx-auto md:mx-0 rounded-full overflow-hidden shadow-2xl ring-4 ring-purple-200">
+                  <img 
+                    src="/lovable-uploads/a1aaace2-76d6-4b48-a458-7dc055fe5ebc.png" 
+                    alt="Sasi Kumar" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <div className="space-y-6">
