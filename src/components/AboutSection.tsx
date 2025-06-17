@@ -15,7 +15,7 @@ const AboutSection = () => {
                 <img 
                   src="/lovable-uploads/08b713d2-4d04-4d7a-a825-20e156c4574a.png" 
                   alt="Sasi Kumar" 
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-cover object-top scale-110"
                 />
               </div>
             </div>
