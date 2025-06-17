@@ -10,12 +10,12 @@ const AboutSection = () => {
         </h2>
         <Card className="p-8 md:p-12 bg-white/70 backdrop-blur-md border-purple-100 shadow-xl">
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="w-48 h-48 mx-auto md:mx-0 rounded-full overflow-hidden shadow-2xl ring-4 ring-purple-200">
+            <div className="flex justify-center">
+              <div className="w-48 h-48 rounded-full overflow-hidden shadow-2xl ring-4 ring-purple-200">
                 <img 
-                  src="/lovable-uploads/a1aaace2-76d6-4b48-a458-7dc055fe5ebc.png" 
+                  src="/lovable-uploads/08b713d2-4d04-4d7a-a825-20e156c4574a.png" 
                   alt="Sasi Kumar" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </div>
