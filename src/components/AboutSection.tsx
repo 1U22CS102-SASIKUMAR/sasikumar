@@ -36,7 +36,7 @@ const AboutSection = () => {
                 collaborate with talented teams!
               </p>
               <div className="flex flex-wrap gap-3 pt-4">
-                {["React", "JavaScript", "HTML/CSS", "Bootstrap", "Python", "Django", "MySQL", "Git"].map((skill) => (
+                {["JavaScript", "HTML/CSS", "Bootstrap", "Python", "Django", "MySQL", "Git"].map((skill) => (
                   <span
                     key={skill}
                     className="px-4 py-2 bg-gradient-to-r from-purple-100 to-blue-100 text-purple-700 rounded-full text-sm font-medium"
